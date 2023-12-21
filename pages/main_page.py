@@ -17,3 +17,4 @@ class MainPage(BasePage):
     def check_current_url_for_login_substring(self):
         current_url = self.browser.current_url
         assert "login" in current_url, f"URL {current_url} does not contain the substring 'login'"
+

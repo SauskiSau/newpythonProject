@@ -8,3 +8,4 @@ class LoginPageLocators:
     LOGIN_FORM = (By.CLASS_NAME, "login_form")
     REGISTER_FORM = (By.CLASS_NAME, "register_form")
     LOGIN_URL_SUBSTRING = "login"
+
